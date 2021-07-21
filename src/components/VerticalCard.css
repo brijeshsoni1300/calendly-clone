@@ -1,0 +1,19 @@
+.verticalCard{
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0;
+}
+
+.verticalCard__img > img{
+	max-width: 500px;
+	object-fit: contain;
+}
+
+.verticalCard__info{
+	padding: 20px;
+	max-width: 500px;
+}
+
+.verticalCard__infoHead{
+	padding-bottom: 20px;
+}

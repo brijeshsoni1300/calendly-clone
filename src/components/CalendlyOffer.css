@@ -1,0 +1,36 @@
+.calendlyOffer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.calendlyOffer__head {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.calendlyOffer__head > div > h1 {
+  font-size: 72px;
+}
+
+.calendlyOffer__head > div > button {
+  border: none;
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: #5cb270;
+  color: white;
+}
+
+.calendlyOffer__quote {
+  padding-bottom: 16px;
+  max-width: 450px;
+  font-size: small;
+}
+
+.calendlyOffer__para {
+  padding-bottom: 16px;
+  font-size: smaller;
+}

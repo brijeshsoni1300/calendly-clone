@@ -1,0 +1,31 @@
+.cardright {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+
+.cardright__image > img {
+  height: 400px;
+  object-fit: contain;
+}
+
+.cardright__info {
+  max-width: 600px;
+}
+
+.cardright__info > h4 {
+  color: #afafaf;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.cardright__info > h1 {
+  font-weight: 750;
+  padding-bottom: 12px;
+}
+
+.cardright__info > p {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 470;
+}

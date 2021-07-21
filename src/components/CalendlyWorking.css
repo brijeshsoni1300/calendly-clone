@@ -1,0 +1,47 @@
+.calendlyWorking{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 0;
+}
+
+.calendlyWorking__img > img{
+	border-radius: 50px;
+	height: 350px;
+	object-fit: contain;
+}
+
+
+
+.calendlyWorking__infos{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.calendlyWorking__info{
+	display: flex;
+	padding: 80px;
+	justify-content: center
+}
+
+
+
+
+.calendlyWorking__infoLine{
+	border-left: 1px solid gray;
+	height: auto;
+	padding-right: 40px;
+}
+
+
+.calendlyWorking__infoText{
+	display: flex;
+	flex-direction: column;
+}
+
+.calendlyWorking__infoText > h1{
+	padding-bottom: 20px;
+}
+
